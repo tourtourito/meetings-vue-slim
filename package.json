@@ -1,0 +1,21 @@
+{
+  "name": "meetings-vue-slim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "api": "cd public && php -S localhost:8000 api.php",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "vue": "^2.5.17",
+    "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

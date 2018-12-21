@@ -1,0 +1,8 @@
+{
+  "name": "iet/meetings-vue-slim",
+  "type": "project",
+  "require": {
+    "slim/slim": "^3.11",
+    "ext-sqlite3": "*"
+  }
+}
